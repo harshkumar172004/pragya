@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C5FFFC;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #333;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.amount-selection label {
+    display: inline-block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.amount-selection input {
+    margin-right: 10px;
+}
+
+.custom-amount {
+    margin: 20px 0;
+}
+
+.custom-amount input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.thank-you-message {
+    margin-top: 20px;
+}
+
+.thank-you-message h2 {
+    color: #4CAF50;
+}
